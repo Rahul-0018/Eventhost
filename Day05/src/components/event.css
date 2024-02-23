@@ -1,0 +1,255 @@
+.evebox{
+    border-radius: 10px;
+    height: 1000px;
+    /* background-color: rgb(28, 49, 49); */
+    background: linear-gradient(to top, #0F2027, #2C5364, #0F2027);
+    margin-bottom: 20px;
+}
+
+.evebox h1{
+    color: white;
+    padding-left: 2.7rem;
+    padding-top: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.evebox h2{
+    font-size: larger;
+}
+.eventcontainer{
+    text-align: center;
+    font-size: x-large;
+    font-weight:bolder;
+    margin-top: -4rem;
+    height: 300px;
+    width: 55rem;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+
+.evecontain{
+    height: auto;
+    width: 300px;
+    margin-right: -20rem;
+    /* background-color: antiquewhite; */
+    background-color: #356072;
+    overflow-y: auto;
+    border-radius: 7px;
+    transform: translateY(4rem);
+}
+
+.evecontain::-webkit-scrollbar{
+    display: none;
+}
+
+.eventlist1 , .eventlist2 , .eventlist3 {
+    flex: 1;
+    width: 100px;
+    margin-top: 5rem;
+    height: 200px;
+    background-color: #0F2027;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRexbUY0_Fo68ejB1QaLCxGDltZB-Q5sChDMIsnF24-d8-uR9LoQhMVrh9EaIcuWU7tgO4&usqp=CAU); */
+    border-radius: 7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40px;
+}
+
+.eventlist1 h2 , .eventlist2 h2 , .eventlist3 h2{
+    border-radius: 7px 7px 0px 0px;
+    color: #0F2027;
+    font-size: larger;
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin-top: -3px;
+}
+.overlay {
+    flex: 1;
+    border-radius: 7px;
+    margin-top: -3.4rem;
+    position: absolute;
+    height: 200px;
+    width: 16.3rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e5dfdf;
+    /* background-image: url(https://static.wixstatic.com/media/50e880b8b55047279e5b34a6188e6018.jpg/v1/fill/w_267,h_267,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/50e880b8b55047279e5b34a6188e6018.jpg); */
+  }
+
+  .overlay{
+    color: #0F2027;
+  }
+  #loc{
+    margin-top: 4rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    letter-spacing: -1.5px;
+  }
+  #pri{
+    margin-top: -1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    letter-spacing: -1.5px;
+  }
+  #dat{
+    margin-top: -1.2rem;
+    font-size: smaller;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: -1.5px;
+  }
+  .overlaay {
+    flex: 1;
+    border-radius: 7px;
+    margin-top: -3.4rem;
+    position: absolute;
+    height: 200px;
+    width: 15.9rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e5dfdf;
+    /* background-image: url(https://static.wixstatic.com/media/50e880b8b55047279e5b34a6188e6018.jpg/v1/fill/w_267,h_267,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/50e880b8b55047279e5b34a6188e6018.jpg); */
+  }
+  
+  .eventlist1:hover .overlay , .eventlist1:hover .overlaay{
+    opacity: 0.8;
+  }
+  
+  .eventlist2:hover .overlay , .eventlist2:hover .overlaay{
+    opacity: 0.7;
+  }
+
+  .eventlist3:hover .overlay , .eventlist3:hover .overlaay{
+    opacity: 0.7;
+  }
+
+  .overlay button , .overlaay button{
+    height: 2rem;
+    width: 5rem;
+    cursor: pointer;
+    border: 0px solid rgb(189, 189, 187);
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(176, 170, 170);
+  }
+  .overlay button:hover , .overlaay button:hover{
+    background-color: black;
+    color: rgb(240, 231, 231);
+  }
+  .text {
+    color: rgb(209, 23, 23);
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 80%;
+    left: 63%;
+  }
+  .text2 {
+    color: rgb(209, 23, 23);
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+
+
+.eventlist2 {
+    flex: 1;
+    width: 100px;
+    margin-top: 5rem;
+    height: 200px;
+    width: 20px;
+    border-radius: 7px;
+    /* margin-right: 10px; */
+    margin-left: 20px;
+}
+
+.eventlist3 {
+    flex: 1;
+    width: 100px;
+    margin-top: 5rem;
+    height: 200px;
+    width: 20px;
+    border-radius: 7px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+/* .evebook{
+    text-align: left;
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 16rem;
+    height: 3rem;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+
+.evebook button{
+    margin-left: 2rem;
+    width: 4.5rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgb(227, 116, 116);
+    cursor: pointer;
+} */
+
+/* .evebook button:hover{
+    background-color: black;
+    color: white;
+} */
+
+.evebook {
+    margin-bottom: 8px;
+    padding: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    justify-content: space-between;
+  }
+  
+  .evebook button {
+    padding: 5px 10px;
+    height: 2rem;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .evebook button:hover {
+    background-color: #d63222;
+  }
+  
+  .booknow{
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(189, 151, 82);
+}
+
+.booknowlink{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+}
+
+.booked{
+    margin-top: 50px;
+}
