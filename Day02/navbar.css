@@ -1,0 +1,236 @@
+body{
+        background-color: rgb(244, 238, 238);
+        /* background-image: url(D:\AdvanceAppDevelopment\Frontend\event-manager\src\assets\groovepaper.png); */
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+.navbox{
+    height: 40px;
+    /* background-color: rgb(248, 239, 239); */
+    padding-top: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+  }
+  .navbar {
+    display: flex;
+    /* background-color: rgb(222, 217, 217); */
+    background-color: rgb(244, 238, 238);
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    z-index: 1000;
+  }
+
+  .navbar li {
+    margin-top: -11px;
+    margin-left: 5px;
+  }
+  
+  .navbar li:first-child {
+    padding-left: 20px;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .navbar li:last-child {
+    margin-left: 70%;
+  }
+  
+  .sol{
+    margin-left: 1750%;
+    font-size: large;
+  }
+  .fea{
+    margin-left: 1500%;
+    font-size: large;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: rgb(10, 41, 62);
+  }
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 20px;
+    padding-top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.dropbtn{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+/* .popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.popup button {
+  padding: 8px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
+
+.popup button:last-child {
+  margin-left: 10px;
+  background-color: #ccc;
+}
+
+.popup button:last-child:hover {
+  background-color: #999;
+} */
+
+
+/* .popup{
+  height: 50%;
+  width: 20%;
+  position: fixed;
+  margin-top: 15%;
+  background-color: antiquewhite;
+  transform: translateX(210%);
+}
+
+
+.popup form{
+  padding-left: 20px;
+}
+
+.popup button{
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.save{
+  transform: translateY(300%);
+}
+.close{
+  transform: translateY(130%);
+} */
+
+
+.editb{
+  border: none;
+  /* background-color: transparent; */
+  padding: 9px;
+  width: 90%;
+  cursor: pointer;
+  height: 30%;
+  background-color: white;
+  border-radius: 3px;
+}
+.editb:hover{
+  background-color: rgb(249, 246, 246);
+}
+.prob:hover{
+  background-color: rgb(249, 246, 246);
+}
+.prob{
+  padding: 9px;
+  border-radius: 3px;
+  width: 90%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.popup h2{
+  text-align: center;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: white; */
+  background-color: rgb(252, 251, 251);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.popup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup label {
+  margin-bottom: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup label input {
+  flex: 1;
+  padding: 8px;
+  margin-left: 10px;
+  background-color: rgb(252, 251, 251);
+  border: none;
+  border-bottom: 1px solid rgb(199, 188, 188);
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.popup .save,
+.popup .close {
+  background-color: #bfdbfb;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 30%;
+  padding: 10px 0;
+  color: black;
+  font-weight: bold;
+}
