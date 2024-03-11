@@ -1,0 +1,32 @@
+[
+    {
+      "date": "2024-02-25",
+      "location": "Coimbatore",
+      "price": 450,
+      "events": [
+        {
+          "topic": "Conferences"
+        },
+        {
+          "topic": "Seminars"
+        },
+        {
+          "topic": "Workshops"
+        }
+      ]
+    },
+    {
+      "date": "2024-02-26",
+      "location": "Bangalore",
+      "price": 500,
+      "events": [
+        {
+          "topic": "Product Launches"
+        },
+        {
+          "topic": "Corporate Retreats"
+        }
+      ]
+    }
+  ]
+  
